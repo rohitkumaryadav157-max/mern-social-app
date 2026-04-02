@@ -1,4 +1,4 @@
-import "./Navbar.css";
+import "./navBar.css";
 import logo from '../assets/cartoon.jpg';
 import { useNavigate } from "react-router-dom";
 import Swal from "sweetalert2";
