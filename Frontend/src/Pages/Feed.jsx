@@ -106,7 +106,7 @@ function Feed() {
               {/* IMAGE */}
               {post.image && (
                 <img
-                  src={logo}
+                  src={post.image}
                   className="post-img"
                 />
               )}
