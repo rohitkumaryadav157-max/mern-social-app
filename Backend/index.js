@@ -9,11 +9,7 @@ const app = express();
 
 //  CORS (Netlify + local)
 app.use(cors({
-  origin: [
-    "http://localhost:5173",
-    "https://mern-social-app-topaz.vercel.app"
-  ],
-  methods: ["GET", "POST", "PUT", "DELETE"],
+  origin: true,
   credentials: true
 }));
 
