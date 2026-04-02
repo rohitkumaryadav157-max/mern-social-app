@@ -25,7 +25,7 @@ function Feed() {
 
   const getPosts = async () => {
     try {
-      const res = await axios.get("http://localhost:3000/api/posts/feed");
+      const res = await axios.get("https://mern-backend-8zkk.onrender.com/api/posts/feed");
       setPosts(res.data);
     } catch (err) {
       console.log(err);
@@ -43,7 +43,7 @@ function Feed() {
       return;
     }
 
-    await axios.post(`http://localhost:3000/api/posts/like/${id}`, {
+    await axios.post(`https://mern-backend-8zkk.onrender.com/api/posts/like/${id}`, {
       username: user.username,
     });
 
@@ -59,7 +59,7 @@ function Feed() {
 
     if (!text.trim()) return;
 
-    await axios.post(`http://localhost:3000/api/posts/comment/${id}`, {
+    await axios.post(`https://mern-backend-8zkk.onrender.com/api/posts/comment/${id}`, {
       username: user.username,
       text,
     });
@@ -106,7 +106,7 @@ function Feed() {
               {/* IMAGE */}
               {post.image && (
                 <img
-                  src={`http://localhost:3000/uploads/${post.image}`}
+                  src={`http://mern-backend-8zkk.onrender.com/uploads/${post.image}`}
                   className="post-img"
                 />
               )}

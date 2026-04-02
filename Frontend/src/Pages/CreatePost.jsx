@@ -33,7 +33,7 @@ function CreatePost({ refreshPosts }) {
       formData.append("text", text);
       if (image) formData.append("image", image);
 
-      await axios.post("http://localhost:3000/api/posts/create", formData);
+      await axios.post("http://mern-backend-8zkk.onrender.com/api/posts/create", formData);
 
       Swal.fire({
   title: "Post Sucessfully!",

@@ -41,7 +41,7 @@ function Login() {
   // 🔐 LOGIN FUNCTION
   const handleLogin = async () => {
     try {
-      const res = await axios.post("http://localhost:3000/api/auth/login", loginData);
+      const res = await axios.post("https://mern-backend-8zkk.onrender.com/api/auth/login", loginData);
 
       if (res.data.user) {
         localStorage.setItem("user", JSON.stringify(res.data.user));
@@ -66,7 +66,7 @@ function Login() {
     }
 
     try {
-      const res = await axios.post("http://localhost:3000/api/auth/signup", signupData);
+      const res = await axios.post("https://mern-backend-8zkk.onrender.com/api/auth/signup", signupData);
 
       toast.success("Signup Success ");
       setC(true); // switch to login
