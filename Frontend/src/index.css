@@ -1,0 +1,174 @@
+.preview-img {
+  width: 100%;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+.feed-container {
+  width: 40%;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.post-card {
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  background: white;
+}
+
+.post-img {
+  width: 100%;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+
+
+.create-container {
+  width: 40%;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.create-card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 16px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.create-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tabs button {
+  border: none;
+  padding: 6px 14px;
+  border-radius: 20px;
+  margin-left: 8px;
+  background: #eee;
+  cursor: pointer;
+}
+
+.tabs .active {
+  background: #1d72ff;
+  color: white;
+}
+
+textarea {
+  width: 100%;
+  border: none;
+  margin-top: 15px;
+  resize: none;
+  outline: none;
+  font-size: 16px;
+}
+
+.preview {
+  width: 100%;
+  margin-top: 10px;
+  border-radius: 12px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+  align-items: center;
+}
+
+.icons i {
+  margin-right: 12px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.post-btn {
+  background: #ccc;
+  border: none;
+  padding: 8px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.post-btn:not(:disabled) {
+  background: #1d72ff;
+  color: white;
+}
+.post-card {
+  background: #fff;
+  padding: 15px;
+  margin-top: 15px;
+  border-radius: 16px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+.post-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.avatar {
+  border-radius: 50%;
+}
+
+.post-img {
+  width: 100%;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.post-actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.comment-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.4);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.comment-box {
+  background: white;
+  width: 400px;
+  max-height: 70%;
+  border-radius: 15px;
+  padding: 15px;
+  overflow: hidden;
+}
+
+.comment-list {
+  max-height: 250px;
+  overflow-y: auto;
+  margin-top: 10px;
+}
+
+.comment-item {
+  padding: 8px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.comment-input {
+  display: flex;
+  margin-top: 10px;
+}
+
+.comment-input input {
+  flex: 1;
+  padding: 8px;
+}
+
+.comment-input button {
+  margin-left: 10px;
+}

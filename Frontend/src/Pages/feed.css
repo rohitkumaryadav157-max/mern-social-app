@@ -1,0 +1,166 @@
+.background{
+
+
+    background: linear-gradient(
+    180deg,
+    #4c9aa6 0%,
+    #5c8fb0 40%,
+    #8a6fa8 70%,
+    #b76b8f 100%
+  );
+}
+
+
+/* FEED CONTAINER */
+.feed-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  width: 100%;
+ 
+}
+
+/* POST CARD */
+.post-card {
+  width: 100%;
+  max-width: 500px;
+  background: #fff;
+  border-radius: 12px;
+  padding: 12px;
+  margin-bottom: 15px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* HEADER */
+.post-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* AVATAR */
+.avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+/* USER INFO */
+.user-info {
+  flex: 1;
+  min-width: 0;
+}
+
+/* USERNAME */
+.username {
+  font-size: 16px;
+  font-weight: 600;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* TIME */
+.time {
+  font-size: 12px;
+  color: gray;
+}
+
+/* TEXT */
+.post-text {
+  margin-top: 8px;
+  font-size: 14px;
+  word-wrap: break-word;
+}
+
+/* IMAGE */
+.post-img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+/* ACTIONS */
+.post-actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+/* COMMENTS MODAL */
+.comment-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.5);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.comment-box {
+  background: white;
+  width: 90%;
+  max-width: 400px;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.comment-list {
+  max-height: 200px;
+  overflow-y: auto;
+  margin-bottom: 10px;
+}
+
+.comment-item {
+  margin-bottom: 8px;
+}
+
+.comment-input {
+  display: flex;
+  gap: 5px;
+}
+
+.comment-input input {
+  flex: 1;
+  padding: 5px;
+}
+
+/* 📱 MOBILE FIX */
+@media (max-width: 480px) {
+  .feed-container {
+    padding: 0;
+  }
+
+  .post-card {
+    max-width: 100%;
+    border-radius: 0;
+    margin-bottom: 10px;
+  }
+
+  .avatar {
+    width: 35px;
+    height: 35px;
+  }
+
+  .username {
+    font-size: 14px;
+  }
+}
+
+/* .tabs{
+    width: 100%;
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+
+} */

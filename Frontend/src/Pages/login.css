@@ -1,0 +1,92 @@
+/* Full screen gradient background */
+.login-wrapper {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: linear-gradient(
+    180deg,
+    #4c9aa6 0%,
+    #5c8fb0 40%,
+    #8a6fa8 70%,
+    #b76b8f 100%
+  );
+}
+
+/* Center box */
+.login-box {
+  width: 320px;
+  text-align: center;
+  color: white;
+}
+
+/* Instagram text */
+.logo {
+  font-family: cursive;
+  font-size: 30px;
+  margin-bottom: 30px;
+  
+}
+
+/* Inputs */
+.input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 6px;
+  background: rgba(255, 255, 255, 0.2);
+  color: white;
+  outline: none;
+}
+
+.input::placeholder {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+/* Button */
+.login-btn {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  border: 1px solid rgba(255,255,255,0.5);
+  background: transparent;
+  color: white;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.login-btn:hover{
+    background-color: #3b7fd8;
+}
+
+/* Forgot */
+.forgot {
+  font-size: 12px;
+  margin-top: 15px;
+  opacity: 0.9;
+}
+
+/* Divider */
+.divider {
+  margin: 20px 0;
+  position: relative;
+}
+
+.divider span {
+  background: transparent;
+  padding: 0 10px;
+}
+
+/* Facebook */
+.fb-login {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Signup */
+.signup {
+  font-size: 13px;
+  opacity: 0.9;
+}

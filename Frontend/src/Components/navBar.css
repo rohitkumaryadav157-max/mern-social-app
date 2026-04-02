@@ -1,0 +1,111 @@
+/* OUTER WRAPPER (centers navbar) */
+.navbar-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  
+}
+
+/* ACTUAL NAVBAR CARD */
+.navbar {
+  width: 100%;
+  max-width: 700px;   /* 🔥 controls center width */
+  background: #ffffff;
+margin: auto;
+ 
+
+  padding: 12px 20px;
+  border-radius: 12px;
+
+  position: relative;
+
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+
+/* TITLE */
+.nav-title {
+  font-weight: 600;
+  color: #000000;
+  font-size: 15px;
+
+}
+
+/* RIGHT SECTION */
+.nav-right {
+  position: absolute;
+  right: 10px;
+
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* PILLS */
+.pill {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  background: #f5f5f5;
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-size: 13px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.08);
+}
+
+.red {
+  color: red;
+  font-weight: 600;
+}
+
+.star {
+  color: gold;
+}
+
+.green {
+  color: #2ecc71;
+  font-weight: 600;
+}
+
+/* NOTIFICATION */
+.icon-box {
+  position: relative;
+  font-size: 18px;
+  color: #555;
+}
+
+.badge {
+  position: absolute;
+  top: -5px;
+  right: -6px;
+  background: red;
+  color: white;
+  font-size: 10px;
+  padding: 2px 5px;
+  border-radius: 50%;
+}
+
+/* PROFILE */
+.profile {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
+
+/* 📱 MOBILE */
+@media (max-width: 600px) {
+
+  .navbar {
+    max-width: 95%;
+    padding: 10px;
+  }
+
+  .pill {
+    display: none;
+  }
+
+  .profile {
+    width: 30px;
+    height: 30px;
+  }
+}

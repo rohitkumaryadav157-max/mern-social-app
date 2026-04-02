@@ -1,0 +1,99 @@
+/* Container */
+.create-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+/* Card */
+.create-card {
+  width: 500px;
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 20px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Header */
+.create-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.create-header h3 {
+  font-weight: 600;
+  color: #333;
+}
+
+/* Tabs */
+.tabs {
+  background: #f1f2f6;
+  padding: 4px;
+  border-radius: 20px;
+  display: flex;
+}
+
+.tabs button {
+  border: none;
+  padding: 6px 14px;
+  border-radius: 20px;
+  background: transparent;
+  color: #555;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.tabs .active {
+  background: #2f80ed;
+  color: white;
+  box-shadow: 0 2px 6px rgba(47,128,237,0.4);
+}
+
+/* Textarea */
+.post-input {
+  width: 100%;
+  border: none;
+  resize: none;
+  outline: none;
+  padding: 10px 0;
+  font-size: 15px;
+  color: #444;
+  border-bottom: 1px solid #eee;
+}
+
+/* Footer */
+.create-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+}
+
+/* Icons */
+.icons {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  
+  font-size: 25px;
+}
+
+.promote-text {
+  font-size: 14px;
+  color: #2f80ed;
+  font-weight: 500;
+}
+
+/* Post Button */
+.post-btn {
+  background: #dcdcdc;
+  color: white;
+  border: none;
+  padding: 8px 20px;
+  border-radius: 20px;
+  font-weight: 500;
+  cursor: not-allowed;
+}
