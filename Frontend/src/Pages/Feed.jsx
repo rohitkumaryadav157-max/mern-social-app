@@ -106,9 +106,9 @@ function Feed() {
               {/* IMAGE */}
               {post.image && (
                 <img
-                  src={post.image}
-                  className="post-img"
-                />
+  src={`https://mern-backend-8zkk.onrender.com/uploads/${post.image}`}
+  className="post-img"
+/>
               )}
 
               {/* ACTIONS */}
